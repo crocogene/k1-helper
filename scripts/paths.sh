@@ -16,7 +16,7 @@ function set_paths() {
   # System #
   CURL="${HELPER_SCRIPT_FOLDER}/files/fixes/curl"
   INITD_FOLDER="/etc/init.d"
-  USR_DATA="/usr/data"
+  USR_DATA="/home/printer"
   USR_SHARE="/usr/share"
   PRINTER_DATA_FOLDER="$USR_DATA/printer_data"
 
@@ -54,7 +54,7 @@ function set_paths() {
   SUDO_URL="${HS_FILES}/fixes/sudo"
   
   # Klipper #
-  KLIPPER_EXTRAS_FOLDER="/usr/share/klipper/klippy/extras"
+  KLIPPER_EXTRAS_FOLDER="/home/printer/klipper/klippy/extras"
   KLIPPER_CONFIG_FOLDER="${PRINTER_DATA_FOLDER}/config"
   KLIPPER_KLIPPY_FOLDER="/usr/share/klipper/klippy"
   KLIPPER_SERVICE_URL="${HS_FILES}/services/S55klipper_service"
