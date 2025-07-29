@@ -145,54 +145,54 @@ function check_ipaddress() {
 
 function start_moonraker() {
   set +e
-  /etc/init.d/S56moonraker_service start
+  sudo service moonraker start
   sleep 1
   set -e
 }
 
 function stop_moonraker() {
   set +e
-  /etc/init.d/S56moonraker_service stop
+  sudo service moonraker stop
   sleep 1
   set -e
 }
 
 function start_nginx() {
   set +e
-  /etc/init.d/S50nginx start
+  sudo service nginx start
   sleep 1
   set -e
 }
 
 function stop_nginx() {
   set +e
-  /etc/init.d/S50nginx stop
+  sudo service nginx stop
   sleep 1
   set -e
 }
 
 function restart_nginx() {
   set +e
-  /etc/init.d/S50nginx restart
+  sudo service nginx restart
   sleep 1
   set -e
 }
 
 function start_klipper() {
   set +e
-  /etc/init.d/S55klipper_service start
+  sudo service klipper start
   set -e
 }
 
 function stop_klipper() {
   set +e
-  /etc/init.d/S55klipper_service stop
+  sudo service klipper stop
   set -e
 }
 
 function restart_klipper() {
   set +e
-  /etc/init.d/S55klipper_service restart
+  sudo service klipper restart
   set -e
 }
 

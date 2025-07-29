@@ -28,7 +28,7 @@ function set_paths() {
   # Configuration Files #
   MOONRAKER_CFG="${PRINTER_DATA_FOLDER}/config/moonraker.conf"
   PRINTER_CFG="${PRINTER_DATA_FOLDER}/config/printer.cfg"
-  MACROS_CFG="${PRINTER_DATA_FOLDER}/config/gcode_macro.cfg"
+  MACROS_CFG="${PRINTER_DATA_FOLDER}/config/Macros/gcode_macro.cfg"
   
   # Moonraker #
   MOONRAKER_FOLDER="${USR_DATA}/moonraker"
