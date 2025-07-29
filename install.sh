@@ -6,6 +6,7 @@ clear
 HELPER_SCRIPT_FOLDER="$(dirname "$(readlink -f "$0")")"
 
 for script in "${HELPER_SCRIPT_FOLDER}/scripts/"*.sh; do . "${script}"; done
+. "${HELPER_SCRIPT_FOLDER}/scripts/menu/functions.sh"
 
 # custimized copy of scripts/improved_shapers.sh
 function install_improved_shapers(){
