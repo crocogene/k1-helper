@@ -45,7 +45,7 @@ function install_improved_shapers(){
           echo -e "Info: Improved Shapers Calibration configurations are already enabled in printer.cfg file..."
         else
           echo -e "Info: Adding Improved Shapers Calibration configurations in printer.cfg file..."
-          sed -i '/\[include printer_params\.cfg\]/a \[include Helper-Script/improved-shapers/improved-shapers\.cfg\]' "$PRINTER_CFG"
+          sed -i '/\[include Macros\/\*\.cfg\]/a \[include Helper-Script/improved-shapers/improved-shapers\.cfg\]' "$PRINTER_CFG"
         fi
         echo -e "Info: Restarting Moonraker service..."
         stop_moonraker
