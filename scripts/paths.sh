@@ -17,7 +17,7 @@ function set_paths() {
   CURL="${HELPER_SCRIPT_FOLDER}/files/fixes/curl"
   INITD_FOLDER="/etc/init.d"
   USR_DATA="/home/printer"
-  USR_SHARE="/usr/share"
+  #USR_SHARE="/usr/share" 
   PRINTER_DATA_FOLDER="$USR_DATA/printer_data"
 
   # Helper Script #
@@ -56,7 +56,7 @@ function set_paths() {
   # Klipper #
   KLIPPER_EXTRAS_FOLDER="/home/printer/klipper/klippy/extras"
   KLIPPER_CONFIG_FOLDER="${PRINTER_DATA_FOLDER}/config"
-  KLIPPER_KLIPPY_FOLDER="/usr/share/klipper/klippy"
+  KLIPPER_KLIPPY_FOLDER="/home/printer/klipper/klippy"
   KLIPPER_SERVICE_URL="${HS_FILES}/services/S55klipper_service"
   KLIPPER_GCODE_URL="${HS_FILES}/fixes/gcode.py"
   KLIPPER_GCODE_3V3_URL="${HS_FILES}/fixes/gcode_3v3.py"
