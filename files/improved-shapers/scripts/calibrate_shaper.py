@@ -1,5 +1,6 @@
-#!/usr/bin/env python3
-###!/usr/data/rootfs/usr/bin/python3
+
+#!/home/printer/klippy-env/bin/python
+#
 # Shaper auto-calibration script
 #
 # Copyright (C) 2020  Dmitry Butyugin <dmbutyugin@google.com>
